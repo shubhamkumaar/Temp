@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Guidance</title>
+    <link rel="icon" href="./../Documents/LogoWithoutText.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/css/main.ad49aa9b.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="https://kit.fontawesome.com/f8ab7f1a09.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="font-sans justify-center align-center ">
+
+    <!-- Header Section -->
+
+    <nav class="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+        <div class="container px-4 py-0 mx-auto relative lg:text-sm">
+            <div class="flex justify-between mt-4 items-center">
+                <div class="flex items-center flex-shrink-0">
+
+                    <span class="text-xl tracking-tight"><img src="./../Documents/logo.png" alt="logo"
+                            style="height: auto; width: 150px;"></span>
+                </div>
+                <ul class="lg:flex hidden max-w-[638px]:hidden sm:hidden md:hidden lg:ml-14 lg:space-x-1">
+
+
+                    <li class=" font-semibold hover-effect">
+                        <a href="#intro" class="no-new-tab hover-effect">Introduction</a>
+                    </li>
+                    <li class=" font-semibold hover:text-sm transition-all duration-300">
+                        <a href="#domains" class="no-new-tab ">Domains</a>
+                    </li>
+                    <li class="font-semibold hover-effect">
+                        <a href="#contribution" class="no-new-tab">Contribution</a>
+                    </li>
+                    <li class=" font-semibold hover-effect">
+                        <a href="#contents" class="no-new-tab">Contents</a>
+                    </li>
+                    <li class=" font-semibold hover-effect">
+                        <a href="#contributors" class="no-new-tab">Contributors</a>
+                    </li>
+                </ul>
+
+                <div class=" md:flex sm:flex flex-col justify-end">
+                    <button id="menuButton">
+                        <!-- Icons for Menu and X can be added via SVG or other methods -->
+                        <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                        <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobileMenu"
+                class="hidden text-white backdrop-blur opacity-85 fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+                <ul>
+
+                    <li class="py-4 menu-link">
+                        <a href="#intro" class="no-new-tab font-semibold hover-effect">Introduction</a>
+                    </li>
+                    <li class="py-4 menu-link">
+                        <a href="#domains" class="no-new-tab font-semibold hover-effect">Domains</a>
+                    </li>
+                    <li class="py-4 menu-link">
+                        <a href="#contribution" class="no-new-tab font-semibold hover-effect">Contribution</a>
+                    </li>
+                    <li class="py-4 menu-link">
+                        <a href="#contents" class="no-new-tab font-semibold hover-effect">Contents</a>
+                    </li>
+                    <li class="py-4 menu-link">
+                        <a href="#contributors" class="no-new-tab font-semibold hover-effect">Contributors</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-10">
+        <div id="particles-js"></div>
+        <section class="py-24 flex items-center min-h-screen justify-center bg-black">
+            <div class="mx-auto max-w-[60rem]">
+                <div class="text-center">
+
+                    <h1 class="text-white text-[3rem] font-bold hover-effect">Project
+                        Guidance
+                    </h1>
+                    <p class="mt-3 text-lg leading-relaxed text-gray-200">An opensource repository for amazing projects
+                        in popular languages</p>
+                </div>
+
+                <div class="mt-6 flex items-center justify-center gap-4">
+                    <a href="#intro"
+                        class="transform rounded-md no-new-tab bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700">Start
+                        Learning</a>
+                    <a href="https://github.com/Kushal997-das/Project-Guidance"
+                        class="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black">
+                        View Github </a>
+                </div>
+            </div>
+        </section>
+        <center>
+
+
+            <section class="text-center align-center justify-center section-spacing">
+                <div class="flex flex-wrap justify-center max-w-8xl gap-5">
+                    <img src="https://img.shields.io/github/watchers/Kushal997-das/Project-Guidance?style=social"
+                        alt="GitHub watchers" class="h-auto w-auto">
+                    <a href="#Contribution" title="Contributions are welcome">
+                        <img src="https://img.shields.io/badge/contributions-welcome-green.svg"
+                            alt="Contributions are welcome">
+                    </a>
+                    <img src="https://img.shields.io/github/last-commit/Kushal997-das/Project-Guidance?logo=git&logoColor=white"
+                        alt="GitHub last commit">
+                    <img src="https://img.shields.io/github/contributors/Kushal997-das/Project-Guidance?color=green"
+                        alt="All contributors">
+                    <img src="https://img.shields.io/github/repo-size/Kushal997-das/Project-Guidance?color=blue"
+                        alt="GitHub repo size">
+                    <img src="https://img.shields.io/badge/Status-Ongoing-green.svg" alt="Status ongoing">
+                    <img src="https://img.shields.io/github/license/Kushal997-das/Project-Guidance.svg?color=red"
+                        alt="License">
+                    <img src="https://img.shields.io/github/forks/kushal997-das/Project-Guidance.svg?color=green"
+                        alt="GitHub forks">
+                    <img src="https://img.shields.io/github/stars/Kushal997-das/Project-Guidance.svg?color=orange"
+                        alt="GitHub stars">
+                    <img src="https://img.shields.io/github/issues/Kushal997-das/Project-Guidance.svg?color=red"
+                        alt="GitHub issues">
+                    <img src="https://img.shields.io/github/issues-closed/Kushal997-das/Project-Guidance.svg"
+                        alt="GitHub issues closed">
+                    <img src="https://img.shields.io/github/issues-pr/Kushal997-das/Project-Guidance.svg?color=yellow"
+                        alt="GitHub pull requests">
+                    <img src="https://img.shields.io/github/issues-pr-closed/Kushal997-das/Project-Guidance.svg?color=red"
+                        alt="GitHub pull requests closed">
+                    <a href="#Contents" title="Project Count">
+                        <img src="https://img.shields.io/badge/Projects-100+-blue.svg?color=5ac4bf" alt="Projects">
+                    </a>
+                </div>
+            </section>
+        </center>
+        <center>
+
+
+            <section id="intro" class="section-spacing max-w-[60em] mb-80">
+                <h1
+                    class="mb-4 text-5xl hover-effect neon-text mt-56 mb-66 font-bold leading-none tracking-tight  text-white md:text-5xl lg:text-6xl ">
+                    Introduction</h1>
+
+
+                <div class=" mt-36 mb-60">
+                    <p class="mb-5 font-semibold text-[1rem] sm:text-xl max-w-4xl">Project-Guidance
+                        contains amazing
+                        projects written in multiple
+                        programming
+                        languages.
+                        Here you can easily find beginner to advanced level projects. The main reason behind creating
+                        this
+                        repository is so that people can find their projects all at one place with the source code. Most
+                        of
+                        the
+                        programmers (beginners 🔰) are unable to find the project so we took the initiative to help
+                        them.
+                        Consider this repository as your personal space to find or add any new project to this
+                        repository.
+
+                        Being an open source contributor doesn't just mean writing code,
+                        either. You
+                        can help
+                        out by
+                        writing documentation, tests, or even giving suggestions. 🌟🏆</p>
+                </div>
+
+            </section>
+        </center>
+        <h1 class="mb-4 text-4xl hover-effect neon-text mt-36 mb-86 font-bold leading-none tracking-tight text-center text-white md:text-5xl lg:text-6xl "
+            id="domains">
+            Domain
+            Names 🚀</h1>
+
+        <section class="max-w-7xl mx-auto mt-56 px-4 sm:px-6 lg:px-4 mb-12">
+            <article>
+
+                <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
+                    <!-- Artificial Intelligence -->
+                    <article
+                        class="artificial-intelligence relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://www.twi-global.com/image-library/artificial-intelligence-example-s.xafb901b8.jpg?crop=2048,1299,0,33');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    Artificial Intelligence
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic"
+                                        class="text-blue-300 font-semibold hover:underline">Basic</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Desktop Application -->
+                    <article
+                        class="desktop-application relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://tse3.mm.bing.net/th?id=OIP.TJO-CjFrXCs8_G_m2KEk5wHaE8&pid=Api&P=0&h=220');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    Desktop Application
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic"
+                                        class="text-blue-300 font-semibold hover:underline">Basic</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- IOT (Internet of Things) -->
+                    <article
+                        class="iot relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    IOT (Internet of Things)
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic"
+                                        class="text-blue-300 font-semibold hover:underline">Basic</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Machine Learning and Data Science -->
+                    <article
+                        class="machine-learning-and-data-science relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    Machine Learning and Data Science
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic"
+                                        class="text-blue-300 font-semibold hover:underline">Basic</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Mobile Application -->
+                    <article
+                        class="mobile-development relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://tse1.mm.bing.net/th?id=OIP.xqg3QveEHg58-FCjcDg_5wHaFz&pid=Api&P=0&h=220');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    Mobile Development
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic"
+                                        class="text-blue-300 hover:underline font-semibold">Basic</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Web Development -->
+                    <article
+                        class="web-development relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://images.unsplash.com/photo-1516245834210-c4c142787335?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    Web Development
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic"
+                                        class="text-blue-300 font-semibold hover:underline">Basic</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </article>
+        </section>
+
+
+
+        <section id="contribution" class="section-spacing">
+            <h1
+                class="mb-36 text-4xl hover-effect neon-text mt-56 mb-86 font-bold leading-none tracking-tight text-center text-white md:text-5xl lg:text-6xl ">
+                Contribution Guidelines</h1>
+            <center>
+                <div class="h-0 justify-center max-w-4xl mb-36">
+                    <p class=" font-semibold text-xl  h-0 ">This documentation contains a
+                        detailed
+                        explanation of
+                        how you can
+                        contribute
+                        to
+                        this
+                        project. If you have any questions or issues, don't hesitate to open an issue in the repository.
+                    </p>
+
+                </div>
+            </center>
+            <div class="flex justify-center items-center mt-0 h-[100vh]">
+                <center>
+
+
+                    <div
+                        class="z-5 relative flex flex-col rounded-[20px] max-w-[100%] bg-black bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full p-4 3xl:p-[18px] bg-black undefined">
+
+                        <div class="relative flex flex-row justify-between">
+                            <div class="flex items-center">
+                                <h4 class="ml-4 text-xl font-bold text-white text-center">Steps to Contribute:</h4>
+                            </div>
+                        </div>
+
+                        <div class="h-full w-full mt-5 bg-black text-white">
+                            <div class="mt-5 flex items-center justify-between p-2">
+                                <div class="flex items-center gap-2">
+                                    <input type="checkbox"
+                                        class="defaultCheckbox relative flex h-[20px] min-h-[20px] w-[20px] min-w-[20px] appearance-none items-center 
+                            justify-center rounded-md border border-gray-300 text-white/0 outline-none transition duration-[0.2s]
+                            checked:border-none checked:text-white hover:cursor-pointer dark:border-white/10 checked:bg-brand-500 dark:checked:bg-brand-400"
+                                        name="weekly" />
+                                    <p class="text-base font-bold">Fork this repository</p>
+                                </div>
+
+                            </div>
+
+                            <div class="mt-2 flex items-center justify-between p-2">
+                                <div class="flex items-center gap-2">
+                                    <input type="checkbox"
+                                        class="defaultCheckbox relative flex h-[20px] min-h-[20px] w-[20px] min-w-[20px] appearance-none items-center 
+                            justify-center rounded-md border border-gray-300 text-white/0 outline-none transition duration-[0.2s]
+                            checked:border-none checked:text-white hover:cursor-pointer dark:border-white/10 checked:bg-brand-500 dark:checked:bg-brand-400"
+                                        name="weekly" checked />
+                                    <p class="text-base font-bold">Clone the forked repository to your local machine.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="mt-2 flex items-center justify-between p-2">
+                                <div class="flex items-center gap-2">
+                                    <input type="checkbox"
+                                        class="defaultCheckbox relative flex h-[20px] min-h-[20px] w-[20px] min-w-[20px] appearance-none items-center 
+                            justify-center rounded-md border border-gray-300 text-white/0 outline-none transition duration-[0.2s]
+                            checked:border-none checked:text-white hover:cursor-pointer dark:border-white/10 checked:bg-brand-500 dark:checked:bg-brand-400"
+                                        name="weekly" checked />
+                                    <p class="text-base font-bold">Create a new branch for your feature or bug fix.</p>
+                                </div>
+
+                            </div>
+                            <div class="mt-2 flex items-center justify-between p-2">
+                                <div class="flex items-center gap-2">
+                                    <input type="checkbox"
+                                        class="defaultCheckbox relative flex h-[20px] min-h-[20px] w-[20px] min-w-[20px] appearance-none items-center 
+                            justify-center rounded-md border border-gray-300 text-white/0 outline-none transition duration-[0.2s]
+                            checked:border-none checked:text-white hover:cursor-pointer dark:border-white/10 checked:bg-brand-500 dark:checked:bg-brand-400"
+                                        name="weekly" checked />
+                                    <p class="text-base font-bold">Make your changes in your branch.</p>
+                                </div>
+
+                            </div>
+                            <div class="mt-2 flex items-center justify-between p-2">
+                                <div class="flex items-center gap-2">
+                                    <input type="checkbox"
+                                        class="defaultCheckbox relative flex h-[20px] min-h-[20px] w-[20px] min-w-[20px] appearance-none items-center 
+                            justify-center rounded-md border border-gray-300 text-white outline-none transition duration-[0.2s]
+                            checked:border-none checked:text-white hover:cursor-pointer dark:border-white/10 checked:bg-brand-500 dark:checked:bg-brand-400"
+                                        name="weekly" checked />
+                                    <p class="text-base font-bold">Push your changes to your forked repository.</p>
+                                </div>
+
+                            </div>
+                            <div class="mt-2 flex items-center justify-between p-2">
+                                <div class="flex items-center gap-2">
+                                    <input type="checkbox"
+                                        class="defaultCheckbox relative flex h-[20px] min-h-[20px] w-[20px] min-w-[20px] appearance-none items-center 
+                            justify-center rounded-md border border-gray-300 text-white/0 outline-none transition duration-[0.2s]
+                            checked:border-none checked:text-white hover:cursor-pointer dark:border-white/10 checked:bg-brand-500 dark:checked:bg-brand-400"
+                                        name="weekly" checked />
+                                    <p class="text-base font-bold">Open a pull request to merge your changes into the
+                                        main
+                                        repository.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </center>
+
+
+            </div>
+            <div class=" flex items-center  justify-center">
+                <p class="mb-10 font-semibold text-xl max-w-[60rem] text-center">Please make sure your
+                    code follows the project's coding
+                    standards
+                    and passes all tests
+                    before opening a pull request. Thank you for contributing!</p>
+
+            </div>
+
+        </section>
+
+        <section id="contents" class="section-spacing">
+            <h1
+                class="mb-4 text-4xl hover-effect neon-text mt-36 mb-86 font-bold leading-none tracking-tight text-center text-white md:text-5xl lg:text-6xl ">
+                Table of Contents 📜</h1>
+
+
+
+            <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 mt-10 py-12">
+                <div class=" flex items-center  justify-center">
+                    <p class="mb-20 font-semibold text-xl max-w-4xl text-center"> Find the project you are looking
+                        for by exploring our extensive collection of
+                        categorized
+                        projects.</p>
+
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div
+                        class="artificial-intelligence w-full transition-transform duration-300 transform hover:scale-105 bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://img.freepik.com/premium-photo/3d-rendering-robot-artificial-intelligence-black-background-futuristic-technology-robot_844516-420.jpg"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">Artificial Intelligence</p>
+                            <a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence"
+                                class="text-base text-gray-300 font-normal hover:text-blue-300 hover:underline">Github</a>
+                        </div>
+                    </div>
+                    <div
+                        class="desktop-application w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://images.hdqwalls.com/wallpapers/computer-laptop-desk-light-lamp-dark-room-fa.jpg"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">Desktop Application</p>
+                            <a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application"
+                                class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
+                        </div>
+                    </div>
+                    <div
+                        class="iot w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://tse2.mm.bing.net/th?id=OIP.aTC4vb6h9m1dILQS468xCQHaEs&pid=Api&P=0&h=220"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">IOT (Internet of Things)</p>
+                            <a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)"
+                                class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
+                        </div>
+                    </div>
+                    <div
+                        class="machine-learning-and-data-science w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://wallpaperbat.com/img/239221-data-science-overview-ants-site.jpg"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">Machine Learning and Data
+                                Science</p>
+                            <a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science"
+                                class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
+                        </div>
+                    </div>
+                    <div
+                        class="mobile-development w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://www.udacity.com/blog/wp-content/uploads/2020/12/Mobile-App-Development_Blog-scaled.jpeg"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">Mobile Application</p>
+                            <a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications"
+                                class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
+                        </div>
+                    </div>
+                    <div
+                        class="web-development w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://artbluck.com/wp-content/uploads/2019/04/119761-OPOVDW-164-03.jpg"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">Web Development</p>
+                            <a href="https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development"
+                                class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section id="contributors" class="section-spacing mb-56">
+            <h1
+                class=" text-4xl hover-effect neon-text mt-36 mb-50 font-bold leading-none tracking-tight text-center text-white md:text-5xl lg:text-6xl ">
+                Contributors</h1>
+
+            <div class=" flex items-center  mt-20 mb-46 justify-center">
+                <p class=" font-semibold text-xl max-w-[60rem] text-center">Thanks goes to these wonderful people
+                    who have contributed to this
+                    project:</s< /p>
+
+            </div>
+            <center>
+                <a href="https://github.com/Kushal997-das/Project-Guidance/graphs/contributors">
+                    <img src="https://contrib.rocks/image?repo=Kushal997-das/Project-Guidance" alt="Contributors"
+                        class="rounded-md neon-border mt-40">
+                </a>
+            </center>
+        </section>
+    </main>
+
+    <!--Footer Part Design-->
+    <div id="DesignFoot">
+        <footer id="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon" id="iconssocial">
+                <li class="social-icon__item"><a class="social-icon__link"
+                        href="https://github.com/Kushal997-das/Project-Guidance" target="_blank">
+                        <img src="Github.png" height="40px" width="40px">
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <img src="twitter.png" height="35px" width="35px">
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <img src="Facebk.png" height="40px" width="40px">
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <img src="instagram.png" height="40px" width="40px">
+                    </a></li>
+            </ul>
+            <ul class="menu" id="menu1">
+                <li class="menu__item"><a class="menu__link" href="#intro">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contents">Contents</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contributors" target="_self">Our Contributors</a>
+                </li>
+                <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+            </ul>
+            <p id="copyright">&copy;2024 Project-Guidance | All Rights Reserved</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+        <!-- Back to top button -->
+        <div id="backtotop" class="backtotop">
+            <i class='fas fa-chevron-up'></i>
+        </div>
+
+        <script>
+
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const menuButton = document.getElementById('menuButton');
+                const menuIcon = document.getElementById('menuIcon');
+                const closeIcon = document.getElementById('closeIcon');
+                const mobileMenu = document.getElementById('mobileMenu');
+                const menuLinks = document.getElementsByClassName('menu-link'); // Fixed selector
+
+                // Function to toggle menu visibility
+                function toggleMenu() {
+                    const isMenuOpen = mobileMenu.classList.toggle('hidden');
+                    menuIcon.classList.toggle('hidden', !isMenuOpen);
+                    closeIcon.classList.toggle('hidden', isMenuOpen);
+                }
+
+                // Add event listener to the menu button
+                menuButton.addEventListener('click', function () {
+                    toggleMenu();
+                });
+
+                // Add event listener to each menu link
+                Array.from(menuLinks).forEach(link => {
+                    link.addEventListener('click', function () {
+                        toggleMenu(); // Close the menu when a link is clicked
+                    });
+                });
+            });
+
+            // window.addEventListener('DOMContentLoaded', (event) => {
+            //     // Select all anchor tags without the 'no-new-tab' class and add the target attribute with the value '_blank'
+            //     const anchorTags = document.querySelectorAll('a:not(.no-new-tab)');
+            //     anchorTags.forEach(anchor => {
+            //         anchor.setAttribute('target', '_blank');
+            //     });
+            // });
+
+            Array.from(document.getElementsByClassName('artificial-intelligence')).forEach(function (element) {
+                element.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence';
+                });
+            });
+            Array.from(document.getElementsByClassName('desktop-application')).forEach(function (element) {
+                element.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application'
+                });
+            });
+
+            Array.from(document.getElementsByClassName('desktop-application')).forEach(function (element) {
+                element.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)'
+                });
+            });
+            Array.from(document.getElementsByClassName('machine-learning-and-data-science')).forEach(function (ele) {
+                ele.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science'
+                });
+            });
+            Array.from(document.getElementsByClassName('mobile-development')).forEach(function (ele) {
+                ele.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications'
+                });
+            });
+            Array.from(document.getElementsByClassName('web-development')).forEach(function (ele) {
+                ele.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development'
+                });
+            });
+
+        </script>
+        <!-- scripts -->
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+
+</body>
+
+</html>
